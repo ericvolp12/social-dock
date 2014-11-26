@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+.jumbotron{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-color:transparent;
+  color:white;
+  text-align:center;
+}
+body{
+  background-image:url("../bg.jpg");
+  background-repeat:repeat;
+  background-attachment:fixed;
+  
+  
+}
+img{
+  max-width: 100%;
+}
+thead{
+  text-decoration: bold;
+}
+ul{
+  display:inline-block;
+}

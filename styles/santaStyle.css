@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.jumbotron{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-color:transparent;
+  color:white;
+  text-align:center;
+}
+body{
+  background-image:url("https://imgur.com/pXPsBBn.jpg");
+  background-repeat:repeat;
+  background-attachment:fixed;
+  
+}
+thead{
+  text-decoration: bold;
+}

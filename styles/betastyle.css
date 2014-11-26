@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  background-image:url("../bg.jpg");
+  background-repeat:repeat;
+  background-attachment:fixed;
+  color:white;
+  
+}
+thead{
+  text-decoration: bold;
+}
