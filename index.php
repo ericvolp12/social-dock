@@ -62,8 +62,11 @@ $conn1->close();
 	
 <script type="text/javascript">
 board = "<?php echo $_SESSION['board']; ?>";
+boardName = "<?php echo $_SESSION['boardName']; ?>";
 lastResponse = '';
-
+$(function() {
+    $("#titleThing").html(boardName + " Community Message Board")
+});
 function refreshMessages(){
  $.get('requestMessages.php', function(response){
    if(lastResponse != response){

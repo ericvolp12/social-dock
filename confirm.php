@@ -8,6 +8,7 @@ $dbname = "socialdock";
 $email = md5($_POST["email"]);
 $userPassword = md5($_POST["password"]);
 $_SESSION['board'] = $_POST['board'];
+$_SESSION['boardName'] = $_POST['boardName'];
 
 // Create connection
 global $servername, $username, $password, $dbname;
